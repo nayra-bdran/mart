@@ -10,7 +10,6 @@ export default function Hero() {
         fill
         className="object-cover object-[70%] sm:object-center"
         priority
-        
       />
 
       <div className="absolute inset-0 z-10 flex flex-col justify-center items-start px-4 sm:px-6 md:px-10 lg:px-20">
@@ -18,10 +17,11 @@ export default function Hero() {
           Auto Parts
         </h1>
         <p className="text-base sm:text-lg md:text-2xl text-black font-semibold leading-relaxed mb-4 sm:mb-6">
-          We scan the market, <br className="hidden sm:block" />
-          compare prices, <br className="hidden sm:block" />
-          and recommend the best deals
+          <span className="block">We scan the market,</span>
+          <span className="block">compare prices,</span>
+          <span className="block">and recommend the best deals</span>
         </p>
+
         <button className="bg-[#EC221F] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full font-medium text-sm sm:text-base w-32 sm:w-40">
           Inquire Now
         </button>
